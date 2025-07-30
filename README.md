@@ -53,8 +53,11 @@ Enter the fiscal year you want to view (e.g., 2026): 2026
 ### Sample Output (shortened)
 
 ```
-<img width="1544" height="552" alt="image" src="https://github.com/user-attachments/assets/1c2ce9cc-7015-4e3b-af27-310e87d9a687" />
+📅 Fiscal Calendar with Calendar Date (starting Jan 1) for 2026
 
+Fiscal Yr  Quarter  Quarter Start   Quarter End     Month   Month Start     Month End       Week  Week Start      Week End        Day        Fiscal Date  Calendar Date   Cal Day   
+FY2026     Q1       2025-02-01      2025-04-30      M1      2025-02-01      2025-02-28      W1    2025-02-01      2025-02-07      Saturday   2025-02-01    2025-01-01      Wednesday
+...
 ```
 
 ## 📅 Fiscal Logic
@@ -78,4 +81,3 @@ The table includes:
 * Handles user input errors gracefully.
 
 ---
-
